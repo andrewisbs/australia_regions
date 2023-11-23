@@ -17,13 +17,24 @@ body {
 * {
 text-align: left;
 font-family:Georgia, 'Times New Roman', Times, serif;
-background-color: azure;
+background-color:azure;
 }
 p,h1, h2, h3, li {
     display:table;
     padding:5px;
+    border:2px;
+    border-color:brown;
+    border-style:ridge;
 
 }
+
+p {
+    font-weight:900;
+    font-size: larger;
+    color:brown;
+
+}
+
 h1 {
     font-size: 500%;
     text-align: center;
@@ -41,3 +52,28 @@ h3 {
 .span {
     display: inline;
 }
+span.nav {
+    display:flex;
+    flex-wrap: wrap;
+    flex:auto;
+}
+
+li a, a{
+text-decoration: none;
+color:brown;
+font-size: 48px;
+border: 2px;
+border-color: brown;
+border-style:solid;
+padding:2px;
+}
+
+a{
+    text-decoration: none;
+    color:brown;
+    font-size: 24px;
+    border: 2px;
+    border-color: brown;
+    border-style:solid;
+    padding:2px;
+    }
