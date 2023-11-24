@@ -21,8 +21,9 @@ body.nested {
 text-align: left;
 font-family:Georgia, 'Times New Roman', Times, serif;
 background-color:azure;
+color: brown;
 }
-p,h1, h2, h3, li {
+p,h1, h2, h3, h4, li {
     display:table;
     padding:5px;
     border:2px;
@@ -87,5 +88,18 @@ a{
 ul {
     display:flex;
     flex-wrap: wrap;
-    flex:auto;
+    justify-content: space-between;
+}
+ul.non-nav li {
+    border: 2px;
+    border-color: brown;
+    border-style:solid;
+    padding:2px;
+}
+ul.non-nav {
+    display:block
+    border: 2px;
+    border-color: brown;
+    border-style:solid;
+    padding:2px;
 }
