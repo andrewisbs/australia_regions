@@ -1,10 +1,10 @@
 body {
     background-image:url('./images/kangaroo.jpg');
-    background-size: cover;
+    background-size:contain;
 }
 body.nested {
     background-image:url('../images/kangaroo.jpg');
-    background-size: cover;
+    background-size:contain;
 }
 
 .region {
