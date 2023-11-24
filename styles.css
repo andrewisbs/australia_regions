@@ -3,7 +3,7 @@ body {
     background-size:contain;
 }
 body.nested {
-    background-image:url('../images/kangaroo.jpg');
+    background-image:url('./images/kangaroo.jpg');
     background-size:contain;
 }
 
