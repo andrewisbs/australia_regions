@@ -2,7 +2,10 @@ body {
     background-image:url('./images/kangaroo.jpg');
     background-size: cover;
 }
-
+body.nested {
+    background-image:url('../images/kangaroo.jpg');
+    background-size: cover;
+}
 
 .region {
     text-emphasis: 30px;
