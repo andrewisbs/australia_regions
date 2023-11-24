@@ -70,6 +70,9 @@ border-color: brown;
 border-style:solid;
 padding:2px;
 }
+li {
+    border-style: hidden;
+}
 
 a{
     text-decoration: none;
@@ -80,3 +83,9 @@ a{
     border-style:solid;
     padding:2px;
     }
+
+ul {
+    display:flex;
+    flex-wrap: wrap;
+    flex:auto;
+}
