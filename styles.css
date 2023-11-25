@@ -9,11 +9,14 @@ body.nested {
 
 .region {
     text-emphasis: 30px;
-    text-transform: uppercase;
+    text-transform:capitalize;
+    color: rgb(87, 1, 1);
+
 }
 
-.important-term {
-    text-emphasis:bold
+.important-terms {
+    text-emphasis:bold;
+    color:rgb(2, 85, 42)222, 177);
 ;
 }
 
@@ -95,9 +98,12 @@ ul.non-nav li {
     border-color: brown;
     border-style:solid;
     padding:2px;
+    list-style-type: disc;
+    list-style-position: inside;
+    display: list-item;
 }
 ul.non-nav {
-    display:block
+    display:list-item;
     border: 2px;
     border-color: brown;
     border-style:solid;
